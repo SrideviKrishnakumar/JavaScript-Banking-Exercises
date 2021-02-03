@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    color:black
+}
+body{
+    
+    font-family: 'Roboto', sans-serif;
+ 
+    }
+    main{
+        background-color: cornsilk  ;
+    }
+    
+header{
+   
+    height: 100px;
+    color:white;
+   
+}
+
+header ul {
+    display:flex;
+    justify-content: space-between;
+    color:white;
+}
+header ul li{
+    list-style: none;
+}
+

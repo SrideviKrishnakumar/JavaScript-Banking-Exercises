@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles/stylegoal.css">
+
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header>
+    <h1><img src="./images/images/icons/logo.png" alt="e-banco"></h1>
+    <a href="messages.html">
+      <img src="./images/images/icons/message.png">
+      <span id="notification">2</span>
+    </a>
+  </header>
+  <!-- The real content -->
+  <main>
+    <h2>Goals & Wishes</h2>
+    <ul>
+      <li>
+        <!-- <Button> because it would launch an action of filtering -->
+        <button class="active" id="totalGoals">All <span>5</span></button>
+      </li>
+      <li>
+        <button id="newGoals">New <span>3</span></button>
+      </li>
+      <li>
+        <button id="richedGoals">Riched <span>2</span></button>
+      </li>
+    </ul>
+    <!-- This is the section that will receive my clones -->
+    <section id="goalsSection">
+      <!-- This is the mock article that I will duplicate -->
+      <article>
+        <h3 class="title">title</h3>
+        <h4>
+          <span class="current">price1</span>
+          <span class="target">price2</span>
+        </h4>
+        <div class="progressBG">
+          <div class="progress"></div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <!-- Bottom navbar -->
+  <footer>
+    <ul>
+      <li>
+        <a href="#">
+          <img src="images/icons/menu-home-active.png" alt="Goals">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/icons/menu-transaction.png" alt="Transations">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/icons/menu-card.png" alt="Cards">
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="images/icons/menu-other.png" alt="Exchange">
+        </a>
+      </li>
+    </ul>
+  </footer>
+  <!-- My beautifull and shiny script -->
+  <script src="scripts/goals.js"></script>
+</body>
+
+</html>
